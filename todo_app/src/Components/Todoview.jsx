@@ -1233,7 +1233,7 @@ const Todoview = () => {
                                     <td>{value.userId}</td>
                                     <td>{value.id}</td>
                                     <td>{value.title}</td>
-                                    <td>{String(value.completed)}</td>
+                                    <td><input type="checkbox" checked={value.completed}/></td>
                                     </tr>                    
                                 }
                              )}   
